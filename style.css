@@ -1,0 +1,85 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+    padding: 5%;
+    margin: 5% 20%;
+}
+
+/* proprietà header */
+
+header {
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #00de01;
+    text-align: center;
+}
+
+#logo {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+/* proprietà nav */
+
+nav {
+    background-color: #00de01;
+    text-align: center;
+    padding: 10px;
+}
+
+/* proprietà sez monopattini */
+
+section {
+    padding: 10px;
+}
+
+.nome {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.descrizione {
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.simbolo:after {
+    content: ' \21A6';
+}
+
+.stato {
+    display: block;
+}
+
+/* proprietà stato carica */
+
+.carica1 {
+    background-color: #F5B453;
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.carica2 {
+    background-color: #1EC31E;
+    height: 25px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.carica3 {
+    background-color: #BE4141;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+}
